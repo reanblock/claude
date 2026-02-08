@@ -13,8 +13,16 @@ Below are some basics such as getting started, installation, CLI reference, diff
 
 ## Commands
 
-These are custom commands that are explicity invoked using `/`. For example, [here](./commands/explore.md) is a custom `/explore` command which can be used to explore a new repo.
+These are custom commands that are explicity invoked using `/`. 
 
+### Examples
+
+- Explore a new codebase command [here](./commands/explore.md). Copy the file to your local `.claude/commands` folder and run using `/explore`.
+- Example to create a markdown blog most file [here](/commands/posts/new.md). Copy the `new.md` file to your local `.claude/commands/posts` folder and run using `/posts:new`. Note this example uses a subfolder and command arguments. So you can run like so `/posts:new "My new post" | "A new way to code"` which magically parses the `title` and `description`.
+
+### Links
+
+- Slash Commands [here](https://platform.claude.com/docs/en/agent-sdk/slash-commands)
 - Claude Code Tutorial Slash Commands [here](https://www.youtube.com/watch?v=52KBhQqqHuc)
 
 ## Skills
