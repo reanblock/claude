@@ -49,13 +49,11 @@ The skill must be placed in the following folder structure: `.claude/skills/<ski
 
 ### Install
 
-To install new skills from a marketplace, follow instructions [here](https://github.com/anthropics/skills?tab=readme-ov-file#claude-code) or below:
+Use [skills.sh](https://skills.sh/) e.g. `npx skills add anthropics/skills` (replace 'anthropics/skills' with the skills marketplace repo you want) and then follow instructions.
 
-1. In Claude Code run `/plugin marketplace add anthropics/skills` 
-2. Run `/plugin` and browse the marketplace
-3. Follow instructions to install either at 'User' or 'Project' level.
+Alternativly, follow instructions [here](https://github.com/anthropics/skills?tab=readme-ov-file#claude-code).
 
-This uses 'Plugins' for installing the skills and can be found in `~/.claude/plugins/marketplaces/claude-plugins-official` for example.
+**NOTE**: This uses 'Plugins' for installing the skills and can be found in `~/.claude/plugins/marketplaces/claude-plugins-official` for example.
 
 ### Examples
 
@@ -66,6 +64,8 @@ This uses 'Plugins' for installing the skills and can be found in `~/.claude/plu
 
 - Claude Skills Docs [here](https://code.claude.com/docs/en/skills#extend-claude-with-skills)
 - Anthropics official skills repo [here(]https://github.com/anthropics/skills)
+- Agent Skills Standard Open Format [here](https://agentskills.io/)
+- skills.sh install utility [here](https://skills.sh/)
 - Complete Skills Guide [here](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf?hsLang=en)
 - Claude Skills Explained - Step-by-Step Tutorial for Beginners [here](https://www.youtube.com/watch?v=wO8EboopboU)
 - 
