@@ -49,6 +49,7 @@ The skill must be placed in the following folder structure: `.claude/skills/<ski
 
 ### Install
 
+
 Use [skills.sh](https://skills.sh/) and then follow instructions.
 
 For example: 
@@ -58,9 +59,11 @@ npx skills add anthropics/skills
 npx skills add coreyhaines31/marketingskills
 ```
 
-You can also create your own custom skills using `npx sills`. For details run `npx skills --help` and check this tutorial [here](https://www.youtube.com/watch?v=rcRS8-7OgBo&t=581s).
+**NOTE**: When installing skills vua `npx skills` it will install in the `.agents/skills` folder and creates a symlink from the `.claude/skills` folder so that Claude can detect it.
 
-**NOTE**: This uses 'Plugins' for installing the skills and can be found in `~/.claude/plugins/marketplaces/claude-plugins-official` for example.
+### Create Skill 
+
+You can also create your own custom skills using `npx sills`. For details run `npx skills --help` and check this tutorial [here](https://www.youtube.com/watch?v=rcRS8-7OgBo&t=581s).
 
 ### Examples
 
