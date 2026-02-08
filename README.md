@@ -49,9 +49,16 @@ The skill must be placed in the following folder structure: `.claude/skills/<ski
 
 ### Install
 
-Use [skills.sh](https://skills.sh/) e.g. `npx skills add anthropics/skills` (replace 'anthropics/skills' with the skills marketplace repo you want) and then follow instructions.
+Use [skills.sh](https://skills.sh/) and then follow instructions.
 
-Alternativly, follow instructions [here](https://github.com/anthropics/skills?tab=readme-ov-file#claude-code).
+For example: 
+
+```bash
+npx skills add anthropics/skills
+npx skills add coreyhaines31/marketingskills
+```
+
+You can also create your own custom skills using `npx sills`. For details run `npx skills --help` and check this tutorial [here](https://www.youtube.com/watch?v=rcRS8-7OgBo&t=581s).
 
 **NOTE**: This uses 'Plugins' for installing the skills and can be found in `~/.claude/plugins/marketplaces/claude-plugins-official` for example.
 
@@ -64,8 +71,10 @@ Alternativly, follow instructions [here](https://github.com/anthropics/skills?ta
 
 - Claude Skills Docs [here](https://code.claude.com/docs/en/skills#extend-claude-with-skills)
 - Anthropics official skills repo [here(]https://github.com/anthropics/skills)
+- Marketing skills repo [here](https://github.com/coreyhaines31/marketingskills)
 - Agent Skills Standard Open Format [here](https://agentskills.io/)
 - skills.sh install utility [here](https://skills.sh/)
+- Claude Code Skills & Create new using skills.sh [here](https://www.youtube.com/watch?v=rcRS8-7OgBo)
 - Complete Skills Guide [here](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf?hsLang=en)
 - Claude Skills Explained - Step-by-Step Tutorial for Beginners [here](https://www.youtube.com/watch?v=wO8EboopboU)
 - 
