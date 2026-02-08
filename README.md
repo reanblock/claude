@@ -80,11 +80,10 @@ You can also create your own custom skills using `npx sills`. For details run `n
 - Claude Code Skills & Create new using skills.sh [here](https://www.youtube.com/watch?v=rcRS8-7OgBo)
 - Complete Skills Guide [here](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf?hsLang=en)
 - Claude Skills Explained - Step-by-Step Tutorial for Beginners [here](https://www.youtube.com/watch?v=wO8EboopboU)
-- 
 
 ## MCP
 
-External integrations to provide Claude access to new tools, serviecsn, APIs etc.
+(Model Context Protocol (MCP) are external integrations (local or remote) to provide Claude access to new tools, serviecsn, APIs etc.
 
 ### Links
 
@@ -100,7 +99,7 @@ External integrations to provide Claude access to new tools, serviecsn, APIs etc
 
 ## Plugins
 
-**TODO**
+Plugins are comprehensive packages that can bundle multiple components (commands, skills, MCP, hooks etc).
 
 ## Links
 
