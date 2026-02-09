@@ -118,13 +118,45 @@ MCP servers for Claude Code are typically configured in one of these locations:
 Currently an experimental feature - you need to add the following to your `settings.json`:
 
 ```json
-"env": {
+{
+  "env": {
     "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  }
 }
 ```
 
+### Panes (iTerm2 / tmux)
 
-Use iTerm (or TMUX) to view agents working in split panes.
+Use iTerm (or tmux) to view agents working in split panes.
+
+Install and start tmux session:
+
+```bash
+brew install tmux
+tmux new
+cd my-project
+claude --dangerously-skip-permissions
+```
+
+Now, try this prompt in the tmux session (remember to have `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS` enabled!)
+
+```
+I want to build a Global Tide & Sea Temperature web app. Create an Agent Team with 3 specific teammates to work in parallel: 
+
+1. Backend_Dev: Focus on integrating the Global Tide API and Sea Temps. 
+2. Frontend_Dev: Build a responsive, dark-mode web UI that visualizes this data. 
+3. The_Skeptic: A security and UX researcher who plays 'Devil's Advocate' 
+
+Follow these rules: 
+
+1. Require plan approval for Backend_Dev and Frontend_Dev before they write any code. 
+2. The_Skeptic should not write code, only review plans and docs. 
+3. All teammates must update CLAUDE.md with their decisions.
+```
+
+You should see something amazing like:
+
+![Multi-Agent Teams](images/multi-agent-teams.png)
 
 ### Examples
 

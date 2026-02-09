@@ -3,12 +3,13 @@
 ## Claude Agents
 
 - https://code.claude.com/docs/en/agent-teams
+- https://www.youtube.com/watch?v=RWDK5414yL4 <-- WATCH !!
 - https://www.youtube.com/watch?v=zm-BBZIAJ0c
 - https://www.youtube.com/watch?v=DWiYdXrxSwg&pp=ygUSY2xhdWRlIGFnZW50IHRlYW1z
 
 ## Claude Startup
 
-1. Create new private repo for brainstorming startup ideas with Claude (AI interviewer, Trustless Agents, TheHumanResponse, Application Testing, Security)
+1. Create new private repo for brainstorming startup ideas with Claude (AI interviewer, Trustless Agents, TheHumanResponse, Application Testing, Security, Faceless YouTube / Wondercraft integration)
 2. Selecct one that is fairly simple to complete and start new project / repo.
 3. Build startup media, logos, images, website, code, application, services, deployments etc.
 4. Integrate payments so we can generate revenue.
@@ -16,6 +17,12 @@
 6. Monitoring.
 7. Profit.
 8. Repeat.
+
+## Faceless / Wondercraft
+
+- https://www.youtube.com/watch?v=ko7-69yddbo
+- https://www.youtube.com/watch?v=H1Xq3aB5Yyk
+- https://www.wondercraft.ai/?via=mrc
 
 ---
 
