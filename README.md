@@ -113,13 +113,29 @@ MCP servers for Claude Code are typically configured in one of these locations:
 - Context7 MCP [here](https://github.com/upstash/context7)
 - Repomix MCP [here](https://repomix.com/guide/)
 
-## Agents
+## Agent Teams
 
-**TODO**
+Currently an experimental feature - you need to add the following to your `settings.json`:
+
+```json
+"env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+}
+```
+
+
+Use iTerm (or TMUX) to view agents working in split panes.
 
 ### Examples
 
-- Using hooks to create specialized self-validating agents [here](https://www.youtube.com/watch?v=u5GkG71PkR0)
+- Spin up 4 agents to run a [parallel PR review](https://code.claude.com/docs/en/agent-teams#run-a-parallel-code-review) from different lenses: security, test coverage, performance imapaact and feature correctness.
+- Spin up multiple agents to work on a [debuging problem](https://code.claude.com/docs/en/agent-teams#investigate-with-competing-hypotheses), each one can focus on different hypotheses and test out each case: one checks if it is a datbase issue, another checks if it is a server issue etc.
+- Spin up multiple agents to build an MVP application: one on UI, one on DB, one on API, one on testing etc.
+
+### Links
+
+- Claude Code Agent Teams (Full Tutorial) [here(]https://www.youtube.com/watch?v=zm-BBZIAJ0c)
+- Claude Opus 4.6: Agent Teams Change Everything! [here](https://www.youtube.com/watch?v=RWDK5414yL4)
 
 ## Hooks
 
@@ -145,7 +161,7 @@ For a comprehensive list of hook scripts, please review the [hooks folder](/hook
 }
 ```
 
-
+- Using hooks to create specialized self-validating agents [here](https://www.youtube.com/watch?v=u5GkG71PkR0)
 
 ## Links
 
