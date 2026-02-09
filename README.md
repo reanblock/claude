@@ -83,7 +83,7 @@ You can also create your own custom skills using `npx sills`. For details run `n
 
 ## MCP
 
-(Model Context Protocol (MCP) are external integrations (local or remote) to provide Claude access to new tools, serviecsn, APIs etc.
+Model Context Protocol (MCP) are external integrations (local or remote) to provide Claude access to new tools, serviecsn, APIs etc.
 
 ### Links
 
@@ -97,6 +97,41 @@ You can also create your own custom skills using `npx sills`. For details run `n
 
 **TODO**
 
+### Examples
+
+- Using hooks to create specialized self-validating agents [here](https://www.youtube.com/watch?v=u5GkG71PkR0)
+
+## Hooks
+
+Hooks are user-defined shell commands or LLM prompts that execute automatically at specific points in Claude Code’s lifecycle. 
+
+### Examples
+
+For a comprehensive list of hook scripts, please review the [hooks folder](/hooks/). Each hook needs to be copiedd into your local `.claude/hooks` directory and added to your `settings.json` file, for example:
+
+```json
+"hooks": {
+    "PreToolUse": [
+        {
+        "matcher": "",
+        "hooks": [
+            {
+            "type": "command",
+            "command": "uv run $CLAUDE_PROJECT_DIR/.claude/hooks/pre_tool_use.py"
+            }
+        ]
+        }
+    ]
+}
+```
+
+
+
+## Links
+
+- Claude Code Hooks Mastery [here](https://github.com/disler/claude-code-hooks-mastery)
+- Claude Code Hooks Tutorial [here](https://www.youtube.com/watch?v=J5B9UGTuNoM)
+
 ## Plugins
 
 Plugins are comprehensive packages that can bundle multiple components (commands, skills, MCP, hooks etc).
@@ -106,3 +141,4 @@ Plugins are comprehensive packages that can bundle multiple components (commands
 - [Edmund's Claude Code Setup](https://github.com/edmund-io/edmunds-claude-code)
 - [Vibe Coding Academy](https://www.vibecodingacademy.ai/)
 - [Claude AI Developer Guide](https://claudeai.dev/)
+- [Agentic Finance Review](https://github.com/disler/agentic-finance-review)
