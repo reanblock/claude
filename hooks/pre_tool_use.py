@@ -134,6 +134,6 @@ def main():
     except Exception:
         # Handle any other errors gracefully
         sys.exit(0)
-x
+
 if __name__ == '__main__':
     main()

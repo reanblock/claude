@@ -173,6 +173,10 @@ You should see something amazing like:
 
 Hooks are user-defined shell commands or LLM prompts that execute automatically at specific points in Claude Code’s lifecycle. 
 
+## Install
+
+Just copy this `hooks` directory from this repo into your local installation `~/.claude` folder and update your `settings.json` to include all the hooks you want to use.
+
 ### Examples
 
 For a comprehensive list of hook scripts, please review the [hooks folder](/hooks/). Each hook needs to be copiedd into your local `.claude/hooks` directory and added to your `settings.json` file, for example:
@@ -199,6 +203,17 @@ For a comprehensive list of hook scripts, please review the [hooks folder](/hook
 
 - Claude Code Hooks Mastery [here](https://github.com/disler/claude-code-hooks-mastery)
 - Claude Code Hooks Tutorial [here](https://www.youtube.com/watch?v=J5B9UGTuNoM)
+
+## Status Line
+
+### Install
+
+Just copy this `status_lines` directory from this repo into your local installation `~/.claude` folder and update your `settings.json` to set the specific status line you want to use.
+
+### Links
+
+- Claude Code Status line docs [here](https://code.claude.com/docs/en/statusline)
+- Claude Code Output Styles [here](https://www.youtube.com/watch?v=mJhsWrEv-Go)
 
 ## Plugins
 
