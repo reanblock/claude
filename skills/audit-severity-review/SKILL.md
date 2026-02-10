@@ -1,5 +1,5 @@
 ---
-name: severity-review
+name: audit-severity-review
 description: Analyze blockchain/smart contract security audit reports and provide severity reassessment recommendations with focus on financial impact. Use when users request "severity review", "severity assessment", "reassess severities", or similar requests to evaluate whether security findings are appropriately categorized. Specialized for DeFi protocols, smart contracts, and blockchain projects.
 ---
 

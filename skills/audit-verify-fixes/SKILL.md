@@ -1,5 +1,5 @@
 ---
-name: verify-fixes
+name: audit-verify-fixes
 description: Verify whether client code changes actually resolve issues identified in a smart contract security audit report. Use when users request "verify fixes", "check remediations", "validate fixes", or want to confirm that audit findings have been properly addressed by reviewing git history and commit diffs.
 ---
 
