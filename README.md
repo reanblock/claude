@@ -20,13 +20,19 @@ Below are some basics such as getting started, installation, CLI reference, diff
 - Interactive Mode [here](https://code.claude.com/docs/en/interactive-mode#general-controls)
 - Checkpointing [here](https://code.claude.com/docs/en/checkpointing)
 - Use `plan` mode when starting new projects (toggle using tab+shift)
-- Create a CLAUDE.md (and associated) files for context loading. Use [this prompt](./prompts/claude-md-prompt.txt).
+- Create a CLAUDE.md (and associated) files for context loading. Use `/init` command.
 
 ## Commands
 
 These are custom commands that are explicity invoked using `/`.  
 
 NOTE that 'custom commands' can be also known as 'slash commands'. Moreover, commands is also being merged into 'Skills' to that they are essentially the same thing (see section below). The only main difference between Commands and Skills is that Commands are executed explicitly (by prefixing with `/`) and skills are executed based on the discussions being had at the time and are inferred from the from the conversation.
+
+### Install
+
+```bash
+cp -r commands ~/.claude/
+```
 
 ### Examples
 
@@ -177,6 +183,10 @@ Hooks are user-defined shell commands or LLM prompts that execute automatically 
 
 Just copy this `hooks` directory from this repo into your local installation `~/.claude` folder and update your `settings.json` to include all the hooks you want to use.
 
+```bash
+cp -r hooks ~/.claude/
+```
+
 ### Examples
 
 For a comprehensive list of hook scripts, please review the [hooks folder](/hooks/). Each hook needs to be copiedd into your local `.claude/hooks` directory and added to your `settings.json` file, for example:
@@ -204,11 +214,40 @@ For a comprehensive list of hook scripts, please review the [hooks folder](/hook
 - Claude Code Hooks Mastery [here](https://github.com/disler/claude-code-hooks-mastery)
 - Claude Code Hooks Tutorial [here](https://www.youtube.com/watch?v=J5B9UGTuNoM)
 
+## Output Styles
+
+### Install
+
+Copy this `output_styles` directory from this repo into your local installation `~/.claude` folder and 
+
+Copu the files:
+
+```bash
+cp -r hooks ~/.claude/
+```
+
+Update your `settings.json` to set the specific output style you want to use.  
+
+```json
+{ "outputStyle": "bullet-points" }
+```
+
+You can also set output style using `/output-style` and then select your custom style from the menu.
+
+### Links
+
+- Claude Code Output Styles Docs [here](https://code.claude.com/docs/en/output-styles#output-styles)
+- Claude Code Output Styles [here](https://www.youtube.com/watch?v=mJhsWrEv-Go)
+
 ## Status Line
 
 ### Install
 
-Just copy this `status_lines` directory from this repo into your local installation `~/.claude` folder and update your `settings.json` to set the specific status line you want to use.
+Copy this `status_lines` directory from this repo into your local installation `~/.claude` folder and update your `settings.json` to set the specific status line you want to use.
+
+```bash
+cp -r status_lines ~/.claude/
+```
 
 ### Links
 

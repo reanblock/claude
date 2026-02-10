@@ -1,13 +1,8 @@
 # Claude Research
 
-## Claude Output Styles
-
-- https://www.youtube.com/watch?v=mJhsWrEv-Go
-
 ## Claude Agents
 
 - https://code.claude.com/docs/en/agent-teams
-- https://www.youtube.com/watch?v=RWDK5414yL4 <-- WATCH !!
 - https://www.youtube.com/watch?v=zm-BBZIAJ0c
 - https://www.youtube.com/watch?v=DWiYdXrxSwg&pp=ygUSY2xhdWRlIGFnZW50IHRlYW1z
 
