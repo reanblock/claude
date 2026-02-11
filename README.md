@@ -22,6 +22,29 @@ Below are some basics such as getting started, installation, CLI reference, diff
 - Use `plan` mode when starting new projects (toggle using tab+shift)
 - Create a CLAUDE.md (and associated) files for context loading. Use `/init` command.
 
+## Contai`ners
+
+Running `claude` in an isolated Docker container is recommended! Use the `claude-code-devcontainer` from ToB [here](https://github.com/trailofbits/claude-code-devcontainer)
+
+### Installation
+
+1. Install the prerequistes listed [here](https://github.com/trailofbits/claude-code-devcontainer?tab=readme-ov-file#prerequisites) - which is `docker`, `@devcontainers/cli`, `claude-code-devcontainer `.
+2. In each new project you need to run `devc .` once only.
+3. Now you can enter the container using `devc shell`.
+
+```bash
+devc .              Install template + start container in current directory
+devc up             Start the devcontainer
+devc rebuild        Rebuild container (preserves persistent volumes)
+devc down           Stop the container
+devc shell          Open zsh shell in container
+devc exec CMD       Execute command inside the container
+devc upgrade        Upgrade Claude Code in the container
+devc mount SRC DST  Add a bind mount (host → container)
+devc template DIR   Copy devcontainer files to directory
+devc self-install   Install devc to ~/.local/bin
+```
+
 ## Commands
 
 These are custom commands that are explicity invoked using `/`.  
