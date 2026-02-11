@@ -164,6 +164,16 @@ You should see something amazing like:
 
 ![Multi-Agent Teams](images/multi-agent-teams.png)
 
+### Orchestration using the Multi-Agent Observability Application
+
+1. Clone the `claude-code-hooks-multi-agent-observability` repo [here](https://github.com/disler/claude-code-hooks-multi-agent-observability)
+2. Follow the Integration steps [here](https://github.com/disler/claude-code-hooks-multi-agent-observability?tab=readme-ov-file#-integration)
+3. Install `bun` [here](https://bun.sh/) and reload your environment using `source`.
+4. Install `vite` [here](https://vite.dev/) by navigating to `apps/client` and running `bun install`.
+5. Start the `./scripts/start-system.sh` script to start the Observability server. 
+6. Run a test using the provided `curl` example. The event should display in the Multi-Agent Observability app.
+7. Run `claude` in the project where you copied the .claude files.
+
 ### Examples
 
 - Spin up 4 agents to run a [parallel PR review](https://code.claude.com/docs/en/agent-teams#run-a-parallel-code-review) from different lenses: security, test coverage, performance imapaact and feature correctness.
