@@ -3,7 +3,6 @@
 ## Claude Agents
 
 - https://code.claude.com/docs/en/agent-teams
-- https://www.youtube.com/watch?v=zm-BBZIAJ0c
 - https://www.youtube.com/watch?v=DWiYdXrxSwg&pp=ygUSY2xhdWRlIGFnZW50IHRlYW1z
 
 ## Claude Startup

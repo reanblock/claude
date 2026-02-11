@@ -172,7 +172,8 @@ You should see something amazing like:
 
 ### Links
 
-- Claude Code Agent Teams (Full Tutorial) [here(]https://www.youtube.com/watch?v=zm-BBZIAJ0c)
+- Claude Code Multi-Agent Orchestration with Opus 4.6, Tmux and Agent Sandboxes [here](https://www.youtube.com/watch?v=RpUTF_U4kiw)
+- Claude Code Agent Teams (Full Tutorial) [here](https://www.youtube.com/watch?v=zm-BBZIAJ0c)
 - Claude Opus 4.6: Agent Teams Change Everything! [here](https://www.youtube.com/watch?v=RWDK5414yL4)
 
 ## Hooks
