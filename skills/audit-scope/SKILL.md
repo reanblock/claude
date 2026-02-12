@@ -28,6 +28,8 @@ AND provides a comma-separated list of in-scope files (or a path pattern).
 
 ## Processing Workflow
 
+**IMPORTANT** DO NOT MAKE CHANGES TO THE CODE OR MAKE ANY COMMITS USING GIT.
+
 ### 1. Validate In-Scope Files
 
 Parse the comma-separated input and resolve each file path:
@@ -62,6 +64,7 @@ Record:
 - **Total LoC** (code lines only, excluding blanks and comments)
 - **Per-file breakdown** (file name, language, code lines)
 - **Total comment lines** (used for documentation quality assessment)
+- **The scc or cloc command that was run**
 
 ### 3. Assess Documentation Quality
 
@@ -135,6 +138,10 @@ cargo build 2>/dev/null
 - **High**: All tests pass, good coverage (>80%), tests cover edge cases and integrations
 - **Med**: Most tests pass (>90% pass rate), moderate coverage (40-80%), some gaps in edge case testing
 - **Low**: Tests failing, low coverage (<40%), tests only cover happy paths, or no tests at all
+
+**Important** 
+
+If the tests fail or simply cannot run due to errors then do NOT fix and do NOT keep trying to run them, just include this in the report.
 
 ### 5. Analyze Code Complexity
 
