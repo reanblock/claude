@@ -1,4 +1,4 @@
-# Claude Code Notes
+# Claude Code Kit
 
 ## Contents
 
@@ -40,3 +40,22 @@ Below are some basics such as getting started, installation, CLI reference, diff
 - [Vibe Coding Academy](https://www.vibecodingacademy.ai/)
 - [Claude AI Developer Guide](https://claudeai.dev/)
 - [Agentic Finance Review](https://github.com/disler/agentic-finance-review)
+
+## Research
+
+### Faceless / Wondercraft
+
+- https://www.youtube.com/watch?v=ko7-69yddbo
+- https://www.youtube.com/watch?v=H1Xq3aB5Yyk
+- https://www.wondercraft.ai/?via=mrc
+
+### OpenClaw
+
+- https://docs.openclaw.ai/
+- https://www.youtube.com/watch?v=3GrG-dOmrLU
+- https://www.youtube.com/watch?v=BQRiw7VtabU
+
+### AutoForge 
+
+- https://autoforge.cc/
+- https://www.youtube.com/watch?v=nKiPOxDpcJY
