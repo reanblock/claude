@@ -54,6 +54,22 @@ for dir in "${DIRS[@]}"; do
 done
 echo ""
 
+# Step 3: Copy settings.json
+echo -e "${YELLOW}Step 3: Installing settings.json...${NC}"
+SETTINGS_SOURCE="$SCRIPT_DIR/settings.json"
+SETTINGS_TARGET="$CLAUDE_DIR/settings.json"
+if [ -f "$SETTINGS_SOURCE" ]; then
+    if [ -f "$SETTINGS_TARGET" ]; then
+        echo "  - Backing up existing settings.json to settings.json.bak"
+        cp "$SETTINGS_TARGET" "$SETTINGS_TARGET.bak"
+    fi
+    echo "  - Copying settings.json to $SETTINGS_TARGET"
+    cp "$SETTINGS_SOURCE" "$SETTINGS_TARGET"
+else
+    echo -e "  - ${RED}Warning: $SETTINGS_SOURCE not found, skipping${NC}"
+fi
+echo ""
+
 echo -e "${GREEN}Installation complete!${NC}"
 echo ""
 echo "The following have been installed to ~/.claude:"
@@ -62,5 +78,8 @@ for dir in "${DIRS[@]}"; do
         echo "  ✓ $dir"
     fi
 done
+if [ -f "$SETTINGS_SOURCE" ]; then
+    echo "  ✓ settings.json"
+fi
 echo ""
 echo -e "${YELLOW}Note: You may need to restart Claude Code for changes to take effect.${NC}"
