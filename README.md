@@ -1,5 +1,15 @@
 # Claude
 
+## Install
+
+Follow the recommended installation process [here](https://code.claude.com/docs/en/quickstart) to install Claude Code.
+
+The following script will copy this repo `commands`, `hooks`, `output-styles`, `status_lines` and `skills` folders to your `~/.claude/skills`, `~/.claude/commands`, `~/.claude/hooks`, `~/.claude/status_lines` and `~/.claude/output-styles`.
+
+```bash
+./install.sh
+```
+
 ## Background
 
 In this repo, we explore Claude Code features, in particular:
@@ -22,7 +32,7 @@ Below are some basics such as getting started, installation, CLI reference, diff
 - Use `plan` mode when starting new projects (toggle using tab+shift)
 - Create a CLAUDE.md (and associated) files for context loading. Use `/init` command.
 
-## Contai`ners
+## Dev Container
 
 Running `claude` in an isolated Docker container is recommended! Use the `claude-code-devcontainer` from ToB [here](https://github.com/trailofbits/claude-code-devcontainer)
 
@@ -60,12 +70,6 @@ devc self-install   Install devc to ~/.local/bin
 These are custom commands that are explicity invoked using `/`.  
 
 NOTE that 'custom commands' can be also known as 'slash commands'. Moreover, commands is also being merged into 'Skills' to that they are essentially the same thing (see section below). The only main difference between Commands and Skills is that Commands are executed explicitly (by prefixing with `/`) and skills are executed based on the discussions being had at the time and are inferred from the from the conversation.
-
-### Install
-
-```bash
-cp -r commands ~/.claude/
-```
 
 ### Examples
 
@@ -223,7 +227,7 @@ You should see something amazing like:
 
 Hooks are user-defined shell commands or LLM prompts that execute automatically at specific points in Claude Code’s lifecycle. 
 
-## Install
+### Install
 
 Just copy this `hooks` directory from this repo into your local installation `~/.claude` folder and update your `settings.json` to include all the hooks you want to use.
 
