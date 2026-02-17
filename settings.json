@@ -23,7 +23,7 @@
   },
   "statusLine": {
     "type": "command",
-    "command": "uv run $CLAUDE_PROJECT_DIR/.claude/status_lines/status_line_v6.py",
+    "command": "uv run ~/.claude/status_lines/status_line_v6.py",
     "padding": 0
   },
   "hooks": {
@@ -33,7 +33,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "uv run $CLAUDE_PROJECT_DIR/.claude/hooks/pre_tool_use.py"
+            "command": "uv run ~/.claude/hooks/pre_tool_use.py"
           }
         ]
       }
@@ -44,7 +44,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "uv run $CLAUDE_PROJECT_DIR/.claude/hooks/post_tool_use.py"
+            "command": "uv run ~/.claude/hooks/post_tool_use.py"
           }
         ]
       }
@@ -55,7 +55,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "uv run $CLAUDE_PROJECT_DIR/.claude/hooks/notification.py --notify"
+            "command": "uv run ~/.claude/hooks/notification.py --notify"
           }
         ]
       }
@@ -66,7 +66,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "uv run $CLAUDE_PROJECT_DIR/.claude/hooks/stop.py --chat"
+            "command": "uv run ~/.claude/hooks/stop.py --chat"
           }
         ]
       }
@@ -77,7 +77,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "uv run $CLAUDE_PROJECT_DIR/.claude/hooks/subagent_stop.py --notify"
+            "command": "uv run ~/.claude/hooks/subagent_stop.py --notify"
           }
         ]
       }
@@ -87,7 +87,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "uv run $CLAUDE_PROJECT_DIR/.claude/hooks/user_prompt_submit.py --log-only --store-last-prompt --name-agent"
+            "command": "uv run ~/.claude/hooks/user_prompt_submit.py --log-only --store-last-prompt --name-agent"
           }
         ]
       }
@@ -98,7 +98,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "uv run $CLAUDE_PROJECT_DIR/.claude/hooks/pre_compact.py"
+            "command": "uv run ~/.claude/hooks/pre_compact.py"
           }
         ]
       }
@@ -109,7 +109,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "uv run $CLAUDE_PROJECT_DIR/.claude/hooks/session_start.py"
+            "command": "uv run ~/.claude/hooks/session_start.py"
           }
         ]
       }
@@ -120,7 +120,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "uv run $CLAUDE_PROJECT_DIR/.claude/hooks/session_end.py"
+            "command": "uv run ~/.claude/hooks/session_end.py"
           }
         ]
       }
@@ -131,7 +131,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "uv run $CLAUDE_PROJECT_DIR/.claude/hooks/permission_request.py --log-only"
+            "command": "uv run ~/.claude/hooks/permission_request.py --log-only"
           }
         ]
       }
@@ -142,7 +142,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "uv run $CLAUDE_PROJECT_DIR/.claude/hooks/post_tool_use_failure.py"
+            "command": "uv run ~/.claude/hooks/post_tool_use_failure.py"
           }
         ]
       }
@@ -153,7 +153,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "uv run $CLAUDE_PROJECT_DIR/.claude/hooks/subagent_start.py"
+            "command": "uv run ~/.claude/hooks/subagent_start.py"
           }
         ]
       }
@@ -164,7 +164,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "uv run $CLAUDE_PROJECT_DIR/.claude/hooks/setup.py"
+            "command": "uv run ~/.claude/hooks/setup.py"
           }
         ]
       }
