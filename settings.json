@@ -9,21 +9,11 @@
     "code-review@claude-plugins-official": true
   },
   "permissions": {
-    "allow": [
-      "Bash(mkdir:*)",
-      "Bash(uv:*)",
-      "Bash(find:*)",
-      "Bash(mv:*)",
-      "Bash(grep:*)",
-      "Bash(npm:*)",
-      "Bash(ls:*)",
-      "Bash(cp:*)",
-      "Write",
-      "Edit",
-      "Bash(chmod:*)",
-      "Bash(touch:*)"
-    ],
+    "allow": [],
     "deny": []
+  },
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
   },
   "statusLine": {
     "type": "command",

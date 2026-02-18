@@ -17,7 +17,7 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 CLAUDE_DIR="$HOME/.claude"
 
 # Define directories to clean and install
-DIRS=("skills" "commands" "hooks" "status_lines" "output-styles")
+DIRS=("skills" "commands" "hooks" "status_lines" "output-styles" "agents")
 
 # Step 1: Remove existing installations
 echo -e "${YELLOW}Step 1: Removing existing installations...${NC}"
