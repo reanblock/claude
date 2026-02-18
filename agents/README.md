@@ -5,15 +5,20 @@
 **Greenfield Project (brand new)**
 
 1. Create new project directory `calorie-tracker-app` and cd into it then run `git init`.
-2. Run `tmux`.
+2. Run `tmux` (install guide below).
 3. Run `claude`.
-4. Run `/plan_w_team` with your project spec prompt and team orchestration prompt (useing the prompt we created earlier).
+4. Run `/plan_w_team` with your project spec prompt and team orchestration prompt (using the prompt example below).
 5. Review `specs/<plan>.md` — tweak if needed.
 6. Run `/build-with-agent-team` skill for example `/build-with-agent-team specs/<plan>.md`.
 
 **Brownfield Project (adding new feature)**
 
 1. Run `/explore` skill to get a summary of the project. 
+2. Run `tmux` (install guide below).
+3. Run `claude`.
+4. Run `/plan` or `/plan_w_team` with your project spec prompt and team orchestration prompt.
+5. Review `specs/<plan>.md` — tweak if needed.
+6. Run `/build` or `/build-with-agent-team` skill for example `/build-with-agent-team specs/<plan>.md`.
 
 **Example /plan_w_team user and orchestration promopt**
 
@@ -30,13 +35,9 @@ Use plain HTML, CSS, and vanilla JavaScript with a JSON file as the data store. 
 "Use two builder agents running in parallel: one focused on the data layer (storage, read/write operations, daily totals logic) and one focused on the UI (HTML structure, CSS styling, user interactions). The data builder should use Opus. The UI builder should use Sonnet. Both builders work simultaneously. Once both are complete, use the tester agent to write and run tests covering happy paths, edge cases, and failure scenarios. Keep at least one builder agent available to fix things should any tests fail. Finally, use the validator agent to wire everything together and verify the app meets all acceptance criteria end-to-end."
 ```
 
-The above task chain is:
+When you run this prompt, you should see something amazing like:
 
-builder-data ─┐
-              ├──> tester ──> validator
-builder-ui  ──┘
-
-The two builders are parallel, then tester and validator are sequential gates after both finish.
+![Multi-Agent Teams](../images/multi-agent-teams.png)
 
 NOTE: Currently an experimental feature - you need to add the following to your `settings.json`:
 
@@ -61,25 +62,7 @@ cd my-project
 claude --dangerously-skip-permissions
 ```
 
-Try this prompt in the tmux session (remember to have `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS` enabled)
-
-```
-I want to build a Global Tide & Sea Temperature web app. Create an Agent Team with 3 specific teammates to work in parallel:
-
-1. Backend_Dev: Focus on integrating the Global Tide API and Sea Temps.
-2. Frontend_Dev: Build a responsive, dark-mode web UI that visualizes this data.
-3. The_Skeptic: A security and UX researcher who plays 'Devil's Advocate'
-
-Follow these rules:
-
-1. Require plan approval for Backend_Dev and Frontend_Dev before they write any code.
-2. The_Skeptic should not write code, only review plans and docs.
-3. All teammates must update CLAUDE.md with their decisions.
-```
-
-You should see something amazing like:
-
-![Multi-Agent Teams](../images/multi-agent-teams.png)
+![Tmux Cheat Sheet](../images/tmux-cheat-sheet.png)
 
 ### Orchestration using the Multi-Agent Observability Application
 

@@ -26,7 +26,7 @@ Frontmatter example:
     Stop:
       - hooks:
           - type: command
-            command: "uv run $CLAUDE_PROJECT_DIR/.claude/hooks/validators/validate_file_contains.py -d specs -e .md --contains '## Task Description' --contains '## Objective'"
+            command: "uv run ~/.claude/hooks/validators/validate_file_contains.py -d specs -e .md --contains '## Task Description' --contains '## Objective'"
 """
 
 import argparse
