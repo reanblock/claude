@@ -1,6 +1,6 @@
 ## Bowser
 
-For more details refer to [claude-bowser](https://github.com/reanblock/claude-bowser) repo.
+For more details refer to [claude-bowser](https://github.com/reanblock/claude-bowser) repo. Video [here](https://www.youtube.com/watch?v=efctPj6bjCY).
 
 ### Setup in project
 
