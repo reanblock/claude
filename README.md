@@ -9,6 +9,7 @@
 | [MCP](./mcp/README.md) | Model Context Protocol integrations | External tools, services, and APIs |
 | [Hooks](./hooks/README.md) | Shell commands triggered at lifecycle events | Pre/post tool use, session events, validators |
 | [Agents](./agents/README.md) | CC Agent Teams Feature | Details of running Agent Teams in Tmux sessions |
+| [Bowser](./bowser/README.md) | Browser Automation | AI driven browser automation for testing and everyday tasks |
 | [Output Styles](./output-styles/README.md) | Custom output formatting | Bullet points, concise modes, etc. |
 | [Status Line](./status_lines/README.md) | Custom status line displays | Real-time info in the Claude Code status bar |
 | [Dev Container](./devcontainer/README.md) | ToB Secure DevContainer | A secure and easy to use container for running CC dangerously! |

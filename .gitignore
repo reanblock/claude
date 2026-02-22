@@ -1,3 +1,7 @@
 # claude 
 logs
 .claude/data
+
+# playwright
+.playwright-cli/
+screenshots

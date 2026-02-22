@@ -15,5 +15,5 @@ test-qa headed="true" prompt=default_qa_prompt:
     claude --dangerously-skip-permissions --model opus "Use a @bowser-qa-agent: (headed: {{headed}}) {{prompt}}"
 
 # UI Review — parallel user story validation across all YAML stories
-ui-review headed="headed" filter="" *flags="":
+ui-review headed="true" filter="" *flags="":
     claude --dangerously-skip-permissions --model opus "/bowser:ui-review {{headed}} {{filter}} {{flags}}"
