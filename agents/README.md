@@ -4,7 +4,7 @@
 
 **Greenfield Project (brand new)**
 
-1. Create new project directory `calorie-tracker-app` and cd into it then run `git init`.
+1. Create new project directory `my-new-project` and cd into it then run `git init`.
 2. Run `tmux` (install guide below).
 3. Run `claude`.
 4. Run `/plan_w_team` with your project spec prompt and team orchestration prompt (using the prompt example below).

@@ -32,7 +32,7 @@ You can also create your own custom skills using `npx sills`. For details run `n
 ## Links
 
 - Claude Skills Docs [here](https://code.claude.com/docs/en/skills#extend-claude-with-skills)
-- Anthropics official skills repo [here(]https://github.com/anthropics/skills)
+- Anthropics official skills repo [here](https://github.com/anthropics/skills)
 - Marketing skills repo [here](https://github.com/coreyhaines31/marketingskills)
 - Agent Skills Standard Open Format [here](https://agentskills.io/)
 - skills.sh install utility [here](https://skills.sh/)
