@@ -13,6 +13,7 @@
 | [Output Styles](./output-styles/README.md) | Custom output formatting | Bullet points, concise modes, etc. |
 | [Status Line](./status_lines/README.md) | Custom status line displays | Real-time info in the Claude Code status bar |
 | [Dev Container](./devcontainer/README.md) | ToB Secure DevContainer | A secure and easy to use container for running CC dangerously! |
+| [UI / UX Design](https://www.pencil.dev/) | Pencil | Dream on canvas. Land in code. |
 
 ## Install
 
