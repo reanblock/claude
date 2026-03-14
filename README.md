@@ -38,6 +38,7 @@ Below are some basics such as getting started, installation, CLI reference, diff
 
 ## Links
 
+- [Agency Agents](https://github.com/msitarzewski/agency-agents)
 - [Edmund's Claude Code Setup](https://github.com/edmund-io/edmunds-claude-code)
 - [Vibe Coding Academy](https://www.vibecodingacademy.ai/)
 - [Claude AI Developer Guide](https://claudeai.dev/)
