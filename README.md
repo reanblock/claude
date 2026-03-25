@@ -12,6 +12,7 @@
 | [Bowser](./bowser/README.md) | Browser Automation | AI driven browser automation for testing and everyday tasks |
 | [Output Styles](./output-styles/README.md) | Custom output formatting | Bullet points, concise modes, etc. |
 | [Status Line](./status_lines/README.md) | Custom status line displays | Real-time info in the Claude Code status bar |
+| [Prompts](./prompts/README.md) | Custom system prompts that can be applied when claude is started up |
 | [Dev Container](./devcontainer/README.md) | ToB Secure DevContainer | A secure and easy to use container for running CC dangerously! |
 | [UI / UX Design](https://www.pencil.dev/) | Pencil | Dream on canvas. Land in code. |
 
