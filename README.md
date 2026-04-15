@@ -15,6 +15,7 @@
 | [Prompts](./prompts/README.md) | Custom system prompts that can be applied when claude is started up |
 | [Dev Container](./devcontainer/README.md) | ToB Secure DevContainer | A secure and easy to use container for running CC dangerously! |
 | [UI / UX Design](https://www.pencil.dev/) | Pencil | Dream on canvas. Land in code. |
+| [Agent Sandbox](https://github.com/reanblock/agent-sandboxes/) | Run claude code agents in a secure [e2b](https://e2b.dev/) sandbox. |
 
 ## Install
 
